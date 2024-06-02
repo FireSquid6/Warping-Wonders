@@ -3,6 +3,7 @@ data modify storage wawo:lodestone posx set from entity @s SelectedItem.componen
 data modify storage wawo:lodestone posy set from entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[1]
 data modify storage wawo:lodestone posz set from entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[2]
 
+execute if score @s wawo.lodestone matches 1 run title @p actionbar {"bold":false,"color":"#FF9175","italic":false,"text":"Warp not ready yet"}
+execute unless score @s wawo.lodestone matches 1 run function wawo:lodestone_warp/adjust_height with storage wawo:lodestone
 
-particle minecraft:reverse_portal ~ ~.5 ~ .3 .7 .3 0 100
-function wawo:lodestone_warp/adjust_height with storage wawo:lodestone
+advancement revoke @s only wawo:technical/lodestone_warp
