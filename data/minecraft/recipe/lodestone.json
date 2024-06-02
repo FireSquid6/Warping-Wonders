@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "SSS",
+      "S#S",
+      "SSS"
+    ],
+    "key": {
+      "#": [
+        {
+          "item": "minecraft:raw_gold"
+        },
+        {
+          "item": "minecraft:raw_iron"
+        },
+        {
+          "item": "minecraft:raw_copper"
+        }
+      ],
+      "S": {
+        "item": "minecraft:chiseled_stone_bricks"
+      }
+    },
+    "result": {
+      "id": "minecraft:lodestone",
+      "count": 1
+    }
+  }
+  
