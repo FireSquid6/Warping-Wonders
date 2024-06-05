@@ -3,9 +3,11 @@ scoreboard objectives add wawo.technical dummy
 scoreboard objectives add wawo.deathloc dummy
 scoreboard objectives add wawo.lodestone dummy
 scoreboard objectives add wawo.spawn dummy
+scoreboard objectives add wawo.tpa dummy
 
 ##scoreboard dummy entries
 scoreboard players set $2 wawo.technical 2
 
 ##start clock
-function wawo:scheduled
+function wawo:scheduled_1s
+function wawo:scheduled_15s

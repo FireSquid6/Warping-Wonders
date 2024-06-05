@@ -1,2 +1,2 @@
-execute unless items entity @s weapon.mainhand minecraft:recovery_compass[minecraft:food] run item modify entity @s weapon.mainhand wawo:dummy_food
+execute unless items entity @s weapon.mainhand minecraft:recovery_compass[minecraft:food] run item modify entity @s weapon.mainhand wawo:recovery_compass
 advancement revoke @s only wawo:technical/holds_recovery_compass

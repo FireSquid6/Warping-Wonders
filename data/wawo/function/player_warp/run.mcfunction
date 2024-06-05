@@ -1,4 +1,2 @@
-say test
-damage @s 1 minecraft:magic
-
-advancement revoke @s only wawo:technical/used_goathorn
+execute at @s unless score @s wawo.tpa matches 1 if score $rift_opened wawo.tpa matches 1 run function wawo:player_warp/teleport_to_rift with storage wawo:tpa
+execute at @s unless score $rift_opened wawo.tpa matches 1 run function wawo:player_warp/open_rift
