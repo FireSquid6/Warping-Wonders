@@ -1,0 +1,14 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:lore": [
+          "{\"bold\":false,\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• opens a teleport rift\"}",
+          "{\"bold\":false,\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• teleports to an opened rift\"}",
+          "{\"bold\":false,\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• does not break when used\"}"
+        ],
+        "minecraft:custom_data": "{modified:1b}"
+      }
+    }
+  ]
+  

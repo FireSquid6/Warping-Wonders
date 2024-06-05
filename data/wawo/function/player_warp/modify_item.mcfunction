@@ -1,0 +1,2 @@
+execute unless items entity @s weapon.mainhand minecraft:goat_horn[minecraft:custom_data={modified:1b}] run item modify entity @s weapon.mainhand wawo:goat_horn
+advancement revoke @s only wawo:technical/holds_goat_horn

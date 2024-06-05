@@ -1,23 +1,27 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {}
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_on_ground": true,
+                "is_flying": false
+              }
             }
-          ],
-          "item": {
-            "items": "minecraft:goat_horn"
           }
+        ],
+        "item": {
+          "items": "minecraft:goat_horn"
         }
       }
-    },
-    "rewards": {
-      "function": "wawo:player_warp/run"
     }
+  },
+  "rewards": {
+    "function": "wawo:player_warp/run"
   }
-  
+}
