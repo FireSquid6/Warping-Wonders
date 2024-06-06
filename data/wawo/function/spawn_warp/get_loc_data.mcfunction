@@ -1,3 +1,8 @@
+data modify storage wawo:spawn dimension set from entity @s Dimension
+data modify storage wawo:spawn posx set from entity @s Pos[0]
+data modify storage wawo:spawn posy set from entity @s Pos[1]
+data modify storage wawo:spawn posz set from entity @s Pos[2]
+
 data modify storage wawo:spawn dimension set from entity @s SpawnDimension
 data modify storage wawo:spawn posx set from entity @s SpawnX
 data modify storage wawo:spawn posy set from entity @s SpawnY

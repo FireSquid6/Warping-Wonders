@@ -1,3 +1,8 @@
+data modify storage wawo:lodestone dimension set from entity @s Dimension
+data modify storage wawo:lodestone posx set from entity @s Pos[0]
+data modify storage wawo:lodestone posy set from entity @s Pos[1]
+data modify storage wawo:lodestone posz set from entity @s Pos[2]
+
 data modify storage wawo:lodestone dimension set from entity @s SelectedItem.components.minecraft:lodestone_tracker.target.dimension
 data modify storage wawo:lodestone posx set from entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[0]
 data modify storage wawo:lodestone posy set from entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[1]
