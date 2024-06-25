@@ -1,4 +1,3 @@
-damage @s 2 minecraft:magic
 summon area_effect_cloud ~ ~ ~ {Particle:{type:"reverse_portal"},Radius:2f,Duration:600,Tags:["wawo.tpa.rift"]} 
 scoreboard players set $rift_opened wawo.tpa 1
 
