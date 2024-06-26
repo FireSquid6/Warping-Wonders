@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      " LS",
+      "LS ",
+      "S  "
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "S": [
+        {
+          "item": "minecraft:armadillo_scute"
+        },
+        {
+          "item": "minecraft:turtle_scute"
+        }
+      ]
+    },
+    "result": {
+      "id": "minecraft:goat_horn",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Fabricated Goat Horn\"}",
+        "minecraft:instrument": "minecraft:call_goat_horn"
+      }
+    }
+  }
+  
