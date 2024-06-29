@@ -1,2 +1,2 @@
-execute unless items entity @s weapon.mainhand minecraft:recovery_compass[minecraft:food] run item modify entity @s weapon.mainhand wawo:recovery_compass
+execute if score $setting_recovery_compass wawo.technical matches 1 unless items entity @s weapon.mainhand minecraft:recovery_compass[minecraft:food] run item modify entity @s weapon.mainhand wawo:recovery_compass
 advancement revoke @s only wawo:technical/holds_recovery_compass
