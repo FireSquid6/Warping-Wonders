@@ -25,4 +25,9 @@ tellraw @s {"bold":false,"clickEvent":\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
 "color":"gray","italic":false,"text":"04. Clock TP to Bed/Respawn Anchor"}
 
+tellraw @s {"bold":false,"clickEvent":\
+{"action":"run_command","value":"/function wawo:settings/break_compass"},\
+"hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
+"color":"white","italic":false,"text":"05. Break Compass on Lodestone TP"}
+
 tellraw @s {"text":"------------------------------","color":"#A6FFAF","bold":true,"italic":false}
