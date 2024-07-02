@@ -37,6 +37,7 @@
       "minecraft:villager",
       "minecraft:armadillo",
       "minecraft:pufferfish",
-      "minecraft:bee"
+      "minecraft:bee",
+      "minecraft:player"
     ]
   }
