@@ -1,18 +1,15 @@
 [
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:food": {
-          "nutrition": 0,
-          "saturation": 0,
-          "can_always_eat": true,
-          "eat_seconds": 9999
-        },
-        "minecraft:lore": [
-          "{\"bold\":false,\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• teleports to last death location\"}",
-          "{\"bold\":false,\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 100% chance to break when used\"}"
-        ]
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Last Death Location",
+        "color": "gray",
+        "bold": false,
+        "italic": false,
+        "underlined": true
       }
-    }
-  ]
-  
+    ],
+    "mode": "insert"
+  }
+]

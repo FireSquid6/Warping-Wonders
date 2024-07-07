@@ -10,6 +10,10 @@ scoreboard objectives add goat_horn_tpa_msg_off dummy
 scoreboard objectives add livestock_compass_tp trigger {"text": "Toggle Livestock Teleport"}
 scoreboard objectives add livestock_compass_tp_msg_on dummy
 scoreboard objectives add livestock_compass_tp_msg_off dummy
+scoreboard objectives add wawo.compass.latest.link.pos.x dummy
+scoreboard objectives add wawo.compass.latest.link.pos.y dummy
+scoreboard objectives add wawo.compass.latest.link.pos.z dummy
+scoreboard objectives add wawo.compass.latest.link.dimension dummy
 
 ##scoreboard dummy entries
 scoreboard players set $2 wawo.technical 2
@@ -25,4 +29,5 @@ scoreboard players set $init wawo.technical 1
 ##start clock
 function wawo:scheduled_1s
 function wawo:scheduled_1t
+function wawo:scheduled_5t
 function wawo:scheduled_15s
