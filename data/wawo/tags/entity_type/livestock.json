@@ -9,18 +9,12 @@
       "minecraft:horse",
       "minecraft:goat",
       "minecraft:mooshroom",
-      "minecraft:cod",
       "minecraft:wolf",
       "minecraft:cat",
       "minecraft:turtle",
-      "minecraft:tropical_fish",
-      "minecraft:salmon",
-      "minecraft:squid",
-      "minecraft:glow_squid",
       "minecraft:axolotl",
       "minecraft:sheep",
       "minecraft:frog",
-      "minecraft:bat",
       "minecraft:camel",
       "minecraft:donkey",
       "minecraft:mule",
@@ -36,8 +30,8 @@
       "minecraft:allay",
       "minecraft:villager",
       "minecraft:armadillo",
-      "minecraft:pufferfish",
       "minecraft:bee",
-      "minecraft:player"
+      "minecraft:zombie_horse",
+      "minecraft:skeleton_horse"
     ]
   }
