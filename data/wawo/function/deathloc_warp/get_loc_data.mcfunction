@@ -8,6 +8,8 @@ data modify storage wawo:recovery posx set from entity @s LastDeathLocation.pos[
 data modify storage wawo:recovery posy set from entity @s LastDeathLocation.pos[1]
 data modify storage wawo:recovery posz set from entity @s LastDeathLocation.pos[2]
 
+data modify storage wawo:recovery uuid set from entity @s UUID
+
 execute if score $setting_recovery_compass wawo.technical matches 1 if score @s wawo.deathloc matches 1 run title @s actionbar {"bold":false,"color":"#FF9175","italic":false,"text":"Warp not ready yet"}
 execute if score $setting_recovery_compass wawo.technical matches 1 unless score @s wawo.deathloc matches 1 run function wawo:deathloc_warp/tp_player with storage wawo:recovery
 

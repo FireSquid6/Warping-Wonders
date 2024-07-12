@@ -1,6 +1,11 @@
+$execute in $(dimension) run forceload add $(posx) $(posz)
+
+$execute in $(dimension) run tp @e[distance=..12,nbt={leash: {UUID:$(uuid)}}] $(posx) $(posy_adj) $(posz)
 $execute in $(dimension) run tp $(posx) $(posy_adj) $(posz)
 execute at @s run playsound minecraft:entity.enderman.teleport neutral @a ~ ~ ~ .5 0.5
 particle minecraft:reverse_portal ~ ~.5 ~ .3 .7 .3 0 100
+
+$execute in $(dimension) run forceload remove $(posx) $(posz)
 
 tag @s remove slot_0_teleport
 tag @s remove slot_1_teleport

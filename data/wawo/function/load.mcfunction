@@ -7,9 +7,6 @@ scoreboard objectives add wawo.tpa dummy
 scoreboard objectives add goat_horn_tpa trigger {"text": "Toggle Goat Horn Teleport"}
 scoreboard objectives add goat_horn_tpa_msg_on dummy
 scoreboard objectives add goat_horn_tpa_msg_off dummy
-scoreboard objectives add livestock_compass_tp trigger {"text": "Toggle Livestock Teleport"}
-scoreboard objectives add livestock_compass_tp_msg_on dummy
-scoreboard objectives add livestock_compass_tp_msg_off dummy
 scoreboard objectives add wawo.compass.latest.link.pos.x dummy
 scoreboard objectives add wawo.compass.latest.link.pos.y dummy
 scoreboard objectives add wawo.compass.latest.link.pos.z dummy
