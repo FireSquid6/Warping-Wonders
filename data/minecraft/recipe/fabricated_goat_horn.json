@@ -23,7 +23,7 @@
       "id": "minecraft:goat_horn",
       "count": 1,
       "components": {
-        "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Fabricated Goat Horn\"}",
+        "minecraft:item_name": "{\"fallback\":\"Fabricated Goat Horn\",\"translate\":\"items.wawo.fabricated_goat_horn\"}",
         "minecraft:instrument": "minecraft:call_goat_horn"
       }
     }
