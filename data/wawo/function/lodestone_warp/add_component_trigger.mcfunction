@@ -1,11 +1,11 @@
 execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] store result score @s wawo.compass.latest.link.pos.x run data get entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[0]
 execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] store result score @s wawo.compass.latest.link.pos.y run data get entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[1]
 execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] store result score @s wawo.compass.latest.link.pos.z run data get entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[2]
-execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] store result score @s wawo.compass.latest.link.dimension run data get entity @s SelectedItem.components.minecraft:lodestone_tracker.target.dimension
 
-execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] at @s if score @s wawo.compass.latest.link.dimension matches 19 if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] run item modify entity @s weapon.mainhand wawo:coords_overworld
-execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] at @s if score @s wawo.compass.latest.link.dimension matches 20 if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] run item modify entity @s weapon.mainhand wawo:coords_nether
-execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] at @s if score @s wawo.compass.latest.link.dimension matches 17 if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] run item modify entity @s weapon.mainhand wawo:coords_end
-execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] at @s if score @s wawo.compass.latest.link.dimension matches 16 if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] run item modify entity @s weapon.mainhand wawo:coords_astral_plane
+execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] store result storage wawo:compass tracker_x int 1 run data get entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[0]
+execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] store result storage wawo:compass tracker_y int 1 run data get entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[1]
+execute unless items entity @s weapon.mainhand minecraft:compass[minecraft:food] if items entity @s weapon.mainhand compass[minecraft:lodestone_tracker] store result storage wawo:compass tracker_z int 1 run data get entity @s SelectedItem.components.minecraft:lodestone_tracker.target.pos[2]
 
+
+function wawo:lodestone_warp/component_trigger_variables with storage wawo:compass
 advancement revoke @s only wawo:technical/holds_compass

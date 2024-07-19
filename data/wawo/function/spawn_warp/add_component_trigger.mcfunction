@@ -3,7 +3,10 @@ execute if items entity @s weapon.mainhand clock store result score @s wawo.comp
 execute if items entity @s weapon.mainhand clock store result score @s wawo.compass.latest.link.pos.z run data get entity @s SpawnZ
 execute if items entity @s weapon.mainhand clock store result score @s wawo.compass.latest.link.dimension run data get entity @s SpawnDimension
 
-execute if score @s wawo.compass.latest.link.dimension matches 19 if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_overworld
-execute if score @s wawo.compass.latest.link.dimension matches 20 if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_nether
-execute if score @s wawo.compass.latest.link.dimension matches 17 if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_end
-execute if score @s wawo.compass.latest.link.dimension matches 16 if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_astral_plane
+
+execute as @s[nbt={SpawnDimension:"minecraft:overworld"}] if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_overworld
+execute as @s[nbt={SpawnDimension:"minecraft:the_nether"}] if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_nether
+execute as @s[nbt={SpawnDimension:"minecraft:the_end"}] if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_end
+execute as @s[nbt={SpawnDimension:"nmr:astral_plane"}] if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_astral_plane
+execute as @s[nbt={SpawnDimension:"eden:outer_wilds"}] if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_outer_wilds
+execute as @s[nbt=!{SpawnDimension:"minecraft:overworld"},nbt=!{SpawnDimension:"minecraft:the_nether"},nbt=!{SpawnDimension:"minecraft:the_end"},nbt=!{SpawnDimension:"nmr:astral_plane"},nbt={SpawnDimension:"eden:outer_wilds"}] if items entity @s weapon.mainhand clock run item modify entity @s weapon.mainhand wawo:coords_other

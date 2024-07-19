@@ -17,6 +17,14 @@
             "type": "minecraft:interaction",
             "nbt": "{Tags:[\"weather_device\"]}"
           }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"outer_wilds_portal\"]}"
+          }
         }
       ]
     }
