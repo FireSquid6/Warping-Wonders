@@ -1,6 +1,6 @@
 $execute in $(dimension) run forceload add $(posx) $(posz)
 
-$execute in $(dimension) run tp @e[distance=..12,nbt={leash: {UUID:$(uuid)}}] $(posx) $(posy) $(posz)
+$execute in $(dimension) run tp @e[distance=..24,nbt={leash: {UUID:$(uuid)}}] $(posx) $(posy) $(posz)
 $execute in $(dimension) run tp $(posx) $(posy) $(posz)
 
 execute at @s run playsound minecraft:entity.enderman.teleport neutral @a ~ ~ ~ .5 0.5
