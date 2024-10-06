@@ -7,18 +7,10 @@
       " T "
     ],
     "key": {
-      "M": {
-        "item": "minecraft:minecart"
-      },
-      "C": {
-        "item": "minecraft:compass"
-      },
-      "T": {
-        "item": "minecraft:cartography_table"
-      },
-      "L": {
-        "item": "minecraft:lodestone"
-      }
+      "M": "minecraft:minecart",
+      "C": "minecraft:compass",
+      "T": "minecraft:cartography_table",
+      "L": "minecraft:lodestone"
     },
     "result": {
       "id": "minecraft:armor_stand",

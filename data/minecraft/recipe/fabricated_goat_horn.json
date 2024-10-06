@@ -7,16 +7,10 @@
       "S  "
     ],
     "key": {
-      "L": {
-        "item": "minecraft:leather"
-      },
+      "L": "minecraft:leather",
       "S": [
-        {
-          "item": "minecraft:armadillo_scute"
-        },
-        {
-          "item": "minecraft:turtle_scute"
-        }
+        "minecraft:armadillo_scute",
+        "minecraft:turtle_scute"
       ]
     },
     "result": {

@@ -8,19 +8,11 @@
     ],
     "key": {
       "#": [
-        {
-          "item": "minecraft:raw_gold"
-        },
-        {
-          "item": "minecraft:raw_iron"
-        },
-        {
-          "item": "minecraft:raw_copper"
-        }
+        "minecraft:raw_gold",
+        "minecraft:raw_iron",
+        "minecraft:raw_copper"
       ],
-      "S": {
-        "item": "minecraft:chiseled_stone_bricks"
-      }
+      "S": "minecraft:chiseled_stone_bricks"
     },
     "result": {
       "id": "minecraft:lodestone",
