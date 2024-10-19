@@ -1,0 +1,10 @@
+{
+    "sound_event": "minecraft:block.portal.travel",
+    "description": {
+      "translate": "instrument.eden.portal_travel.horn",
+      "fallback": "Portal Travel"
+    },
+    "range": 256,
+    "use_duration": 90
+  }
+  

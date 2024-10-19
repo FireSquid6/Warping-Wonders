@@ -1,0 +1,66 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Dimension: ",
+          "color": "dark_gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "dimension",
+          "storage": "wawo:compass",
+          "color": "gray"
+        }
+      ]
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        [
+          {
+            "text": "X: ",
+            "color": "dark_gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "x",
+            "storage": "wawo:compass",
+            "color": "gray"
+          },
+          {
+            "text": " | Y: ",
+            "color": "dark_gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "y",
+            "storage": "wawo:compass",
+            "color": "gray"
+          },
+          {
+            "text": " | Z: ",
+            "color": "dark_gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "z",
+            "storage": "wawo:compass",
+            "color": "gray"
+          }
+        ]
+      ]
+    ],
+    "mode": "insert"
+  }
+]

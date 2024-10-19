@@ -1,4 +1,0 @@
-tellraw @s [{"text":"Info: ","color":"aqua","bold":true,"italic":false},{"text":"When interacting with the Minecart on top you can teleport to Lodestones by clicking the linked Compasses you put into the Lodestone Hub. Shift + clicking lets you remove the compasses from the Lodestone Hub. Left Click the Cartography Table to break the Lodestone Hub.","color":"#FFE6B5","bold":false,"italic":false}]
-execute as @s at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
-execute as @e[type=minecraft:interaction,tag=wawo.lodestone.hub] if data entity @s interaction at @s run data remove entity @s interaction
-advancement revoke @s only wawo:technical/lodestone_hub_right
