@@ -6,7 +6,8 @@
     },
     "rewards": {
       "recipes": [
-        "eden:crafting_shaped/portal_horn"
+        "eden:crafting_shaped/portal_horn",
+        "eden:crafting_shaped/waypoint_hub"
       ]
     }
   }

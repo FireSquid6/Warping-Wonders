@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=wawo.waypoint_hub.marker] run particle minecraft:enchant ~ ~1.75 ~ .5 .3 .5 .1 2
