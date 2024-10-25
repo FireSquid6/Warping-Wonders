@@ -1,1 +1,1 @@
-execute as @a if items entity @s weapon.* minecraft:compass[minecraft:custom_data={wawo:remainder_compass}] run function wawo:compass/remainder_data/modify_compass_components with storage wawo:compass
+execute as @a if items entity @s weapon.* minecraft:compass[minecraft:custom_data={wawo:remainder_compass}] run function wawo:compass/remainder_data/modify_compass_components with storage eden:temp compass.remainder

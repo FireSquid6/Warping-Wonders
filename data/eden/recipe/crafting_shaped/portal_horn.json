@@ -14,6 +14,7 @@
     "id": "minecraft:goat_horn",
     "count": 1,
     "components": {
+      "minecraft:custom_model_data": 10000,
       "minecraft:item_name": "{\"fallback\":\"Portal Horn\",\"translate\":\"items.eden.portal_horn\"}",
       "minecraft:instrument": "eden:portal_travel_horn",
       "minecraft:custom_data": "{wawo:goat_horn_tp}"

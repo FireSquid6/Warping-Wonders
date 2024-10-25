@@ -3,13 +3,14 @@
     "category": "blocks",
     "pattern": [
       " X ",
-      "XBX",
+      "EBE",
       "OOO"
     ],
     "key": {
       "X": "minecraft:ender_eye",
       "B": "minecraft:barrel",
-      "O": "minecraft:obsidian"
+      "O": "minecraft:obsidian",
+      "E": "minecraft:diamond"
     },
     "result": {
       "id": "minecraft:armor_stand",

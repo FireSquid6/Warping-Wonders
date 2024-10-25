@@ -1,5 +1,12 @@
 {
 "items.eden.waypoint_hub": "Waypoint Hub",
 "items.eden.portal_horn": "Portal Horn",
-"instrument.eden.portal_travel.horn": "Portal Travel"
+"instrument.eden.portal_travel.horn": "Portal Travel",
+"gui.eden.waypoint_hub.previous_page": "Previous Page",
+"gui.eden.waypoint_hub.next_page": "Next Page",
+"gui.eden.waypoint_hub.owner": "Owner: ",
+"gui.eden.waypoint_hub.dimension": "Dimension: ",
+"gui.eden.waypoint_hub.this_waypoint": "This Waypoint:",
+"msg.eden.portal_horn.unnamed": " sounded a Portal Horn!",
+"msg.eden.waypoint.invalid": "Waypoint has no valid position for teleport."
 }

@@ -35,7 +35,8 @@
           "minecraft:custom_data": "{wawo:remainder_compass}"
         }
       },
-      "minecraft:rarity": "uncommon"
+      "minecraft:rarity": "uncommon",
+      "!minecraft:custom_data": {}
     }
   }
 ]

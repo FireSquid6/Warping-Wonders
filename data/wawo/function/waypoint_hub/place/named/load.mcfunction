@@ -1,10 +1,10 @@
 function wawo:waypoint_hub/place/head_data
 
-execute as @p run loot spawn ~ ~ ~ loot eden:gameplay/named_player_head
-data modify storage wawo:temp waypoint.profile_name set from entity @n[type=item,nbt={Item:{id:"minecraft:player_head"}}] Item.components.minecraft:profile.name
+execute as @p run loot spawn ~ ~ ~ loot {"type":"minecraft:entity","pools":[{"rolls": 1,"entries":[{"type": "minecraft:item","name": "minecraft:player_head","functions":[{"function": "minecraft:fill_player_head","entity": "this"}]}]}]}
+data modify storage eden:temp waypoint.profile_name set from entity @n[type=item,nbt={Item:{id:"minecraft:player_head"}}] Item.components.minecraft:profile.name
+data modify storage eden:temp waypoint.profile set from entity @n[type=item,nbt={Item:{id:"minecraft:player_head"}}] Item.components.minecraft:profile
 kill @n[type=item,nbt={Item:{id:"minecraft:player_head"}}]
 
-data modify storage wawo:temp waypoint.waypoint_name set from entity @s CustomName
-function wawo:waypoint_hub/place/named/spawn with storage wawo:temp waypoint
+function wawo:waypoint_hub/place/named/spawn
 
 execute as @n[type=marker,tag=wawo.waypoint_hub.marker] at @s run function wawo:waypoint_hub/database/start

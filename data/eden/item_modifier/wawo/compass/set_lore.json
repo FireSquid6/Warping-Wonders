@@ -11,8 +11,8 @@
           "italic": false
         },
         {
-          "nbt": "dimension",
-          "storage": "wawo:compass",
+          "nbt": "compass.data.dimension",
+          "storage": "eden:temp",
           "color": "gray"
         }
       ]
@@ -32,8 +32,8 @@
             "italic": false
           },
           {
-            "nbt": "x",
-            "storage": "wawo:compass",
+            "nbt": "compass.data.x",
+            "storage": "eden:temp",
             "color": "gray"
           },
           {
@@ -43,8 +43,8 @@
             "italic": false
           },
           {
-            "nbt": "y",
-            "storage": "wawo:compass",
+            "nbt": "compass.data.y",
+            "storage": "eden:temp",
             "color": "gray"
           },
           {
@@ -54,8 +54,8 @@
             "italic": false
           },
           {
-            "nbt": "z",
-            "storage": "wawo:compass",
+            "nbt": "compass.data.z",
+            "storage": "eden:temp",
             "color": "gray"
           }
         ]

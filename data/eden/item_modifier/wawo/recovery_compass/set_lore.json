@@ -11,8 +11,8 @@
           "italic": false
         },
         {
-          "nbt": "dimension",
-          "storage": "wawo:recovery_compass",
+          "nbt": "recovery_compass.data.dimension",
+          "storage": "eden:temp",
           "color": "gray"
         }
       ]
@@ -32,8 +32,8 @@
             "italic": false
           },
           {
-            "nbt": "x",
-            "storage": "wawo:recovery_compass",
+            "nbt": "recovery_compass.data.x",
+            "storage": "eden:temp",
             "color": "gray"
           },
           {
@@ -43,8 +43,8 @@
             "italic": false
           },
           {
-            "nbt": "y",
-            "storage": "wawo:recovery_compass",
+            "nbt": "recovery_compass.data.y",
+            "storage": "eden:temp",
             "color": "gray"
           },
           {
@@ -54,8 +54,8 @@
             "italic": false
           },
           {
-            "nbt": "z",
-            "storage": "wawo:recovery_compass",
+            "nbt": "recovery_compass.data.z",
+            "storage": "eden:temp",
             "color": "gray"
           }
         ]

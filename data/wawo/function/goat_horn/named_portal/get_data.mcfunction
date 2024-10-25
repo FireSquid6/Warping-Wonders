@@ -1,5 +1,5 @@
-data modify storage wawo:goat_horn tp_uuid set from entity @s UUID
-execute if items entity @s weapon.mainhand minecraft:goat_horn if data entity @s SelectedItem.components.minecraft:custom_name run data modify storage wawo:goat_horn custom_name set from entity @s SelectedItem.components.minecraft:custom_name
-execute if items entity @s weapon.offhand minecraft:goat_horn unless items entity @s weapon.mainhand minecraft:goat_horn if data entity @s Inventory[{Slot:-106b}].components.minecraft:custom_name run data modify storage wawo:goat_horn custom_name set from entity @s Inventory[{Slot:-106b}].components.minecraft:custom_name
+data modify storage eden:temp goat_horn.tp.uuid set from entity @s UUID
+execute if items entity @s weapon.mainhand minecraft:goat_horn if data entity @s SelectedItem.components.minecraft:custom_name run data modify storage eden:temp goat_horn.tp.portal_name set from entity @s SelectedItem.components.minecraft:custom_name
+execute if items entity @s weapon.offhand minecraft:goat_horn unless items entity @s weapon.mainhand minecraft:goat_horn if data entity @s Inventory[{Slot:-106b}].components.minecraft:custom_name run data modify storage eden:temp goat_horn.tp.portal_name set from entity @s Inventory[{Slot:-106b}].components.minecraft:custom_name
 
-function wawo:goat_horn/named_portal/portal_check with storage wawo:goat_horn
+function wawo:goat_horn/named_portal/portal_check with storage eden:temp goat_horn.tp
