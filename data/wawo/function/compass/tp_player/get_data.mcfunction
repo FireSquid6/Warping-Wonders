@@ -17,4 +17,4 @@ execute if items entity @s weapon.mainhand compass run data modify storage eden:
 
 data modify storage eden:temp compass.tp.uuid set from entity @s UUID
 
-function wawo:compass/tp_player/adjust_height with storage eden:temp compass.tp
+function wawo:compass/tp_player/adjust_height

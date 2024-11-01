@@ -17,4 +17,4 @@ execute if items entity @s weapon.mainhand clock run data modify storage eden:te
 
 data modify storage eden:temp clock.tp.uuid set from entity @s UUID
 
-function wawo:clock/tp_player/adjust_height with storage eden:temp clock.tp
+function wawo:clock/tp_player/adjust_height
