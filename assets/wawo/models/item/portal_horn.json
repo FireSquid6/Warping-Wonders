@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "misc:item/portal_horn"
+        "layer0": "wawo:item/portal_horn"
     },
     "display": {
         "thirdperson_righthand": {
