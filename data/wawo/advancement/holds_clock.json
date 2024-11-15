@@ -15,7 +15,8 @@
                       "mainhand": {
                         "items": "minecraft:clock"
                       }
-                    }
+                    },
+                    "periodic_tick": 200
                   }
                 },
                 {
@@ -26,7 +27,8 @@
                       "offhand": {
                         "items": "minecraft:clock"
                       }
-                    }
+                    },
+                    "periodic_tick": 200
                   }
                 }
               ]
