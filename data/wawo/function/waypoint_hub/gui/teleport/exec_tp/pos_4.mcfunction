@@ -9,3 +9,5 @@ $execute in $(dimension) run forceload remove $(x) $(z)
 
 data remove storage eden:waypoint_tp teleport
 tag @s remove wawo.waypoint.tp
+
+$tellraw @s [{"bold":false,"color":"dark_purple","italic":false,"text":"▊ "},{"bold":false,"color":"gray","italic":false,"text":"Teleported to "},{"bold":false,"color":"gray","italic":false,"text":$(name)},{"bold":false,"color":"gray","italic":false,"text":"."}]

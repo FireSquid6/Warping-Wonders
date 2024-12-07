@@ -9,5 +9,5 @@ $execute in $(dimension) positioned $(x) $(y) $(z) unless block ~1 ~-1 ~1 #eden:
 $execute in $(dimension) positioned $(x) $(y) $(z) unless block ~-1 ~-1 ~-1 #eden:unsafe_to_tp if block ~-1 ~ ~-1 #eden:safe_to_tp if block ~-1 ~1 ~-1 #eden:safe_to_tp run return run function wawo:waypoint_hub/gui/teleport/exec_tp/pos_7 with storage eden:waypoint_tp teleport
 $execute in $(dimension) positioned $(x) $(y) $(z) unless block ~-1 ~-1 ~1 #eden:unsafe_to_tp if block ~-1 ~ ~1 #eden:safe_to_tp if block ~-1 ~1 ~1 #eden:safe_to_tp run return run function wawo:waypoint_hub/gui/teleport/exec_tp/pos_8 with storage eden:waypoint_tp teleport
 
-tellraw @s [{"bold":false,"color":"dark_purple","italic":false,"text":"ℹ "},{"bold":false,"color":"#FFE6B5","fallback":"Waypoint has no valid position for teleport.","italic":false,"translate":"msg.eden.waypoint.invalid"}]
+tellraw @s [{"bold":false,"color":"dark_purple","italic":false,"text":"▊ "},{"bold":false,"color":"gray","fallback":"Waypoint has no valid position for teleport.","italic":false,"translate":"msg.eden.waypoint.invalid"}]
 $execute in $(dimension) run forceload remove $(x) $(z)
