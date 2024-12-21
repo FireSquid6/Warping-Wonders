@@ -1,1 +1,0 @@
-execute as @e[type=interaction,tag=wawo.lodestone.hub,limit=1,sort=random] at @s run function wawo:remove_lodestone_hub/remove
