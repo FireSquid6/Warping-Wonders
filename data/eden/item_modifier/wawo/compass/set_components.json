@@ -29,7 +29,8 @@
       },
       "!minecraft:food": {},
       "minecraft:rarity": "uncommon",
-      "!minecraft:custom_data": {}
+      "!minecraft:custom_data": {},
+      "!minecraft:use_remainder": {}
     }
   }
 ]
