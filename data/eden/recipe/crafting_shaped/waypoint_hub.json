@@ -10,7 +10,7 @@
       "X": "minecraft:ender_eye",
       "B": "minecraft:barrel",
       "O": "minecraft:obsidian",
-      "E": "minecraft:diamond"
+      "E": "minecraft:diamond_block"
     },
     "result": {
       "id": "minecraft:armor_stand",
