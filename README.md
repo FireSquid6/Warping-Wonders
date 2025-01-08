@@ -1,3 +1,7 @@
+## Fork Information
+This is a personal fork for my server. We prefer a harder recipe (2 diamond blocks instead of 2 diamonds) for the warp hub and don't want to use all of the other stuff. This removes that. The rest of the readme is left unmodified
+
+
 <img src="https://explorerseden.eu/warping_wonders_title.png" alt="header" width=100%>
 <br><br><br>
 
