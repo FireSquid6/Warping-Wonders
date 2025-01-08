@@ -3,8 +3,6 @@ scoreboard objectives add eden.technical dummy
 
 ##additional scoreboards
 scoreboard objectives add wawo.inv_slot dummy
-scoreboard objectives add wawo.goat_horn.toggle dummy
-scoreboard objectives add wawo.goat_horn.timer dummy
 scoreboard objectives add wawo.waypoint_hub.id dummy
 scoreboard objectives add wawo.waypoint_hub.gui.page dummy
 scoreboard objectives add wawo.waypoint_hub.gui.in_use dummy
@@ -18,10 +16,6 @@ data remove storage eden:waypoint_tp waypoints
 data remove storage eden:waypoint_tp teleport
 data remove storage eden:temp waypoint_gui
 data remove storage eden:temp waypoint
-data remove storage eden:temp clock
-data remove storage eden:temp compass
-data remove storage eden:temp goat_horn
-data remove storage eden:temp recovery_compass
 
 ##init schedules
 schedule function wawo:schedules/1s 1s
